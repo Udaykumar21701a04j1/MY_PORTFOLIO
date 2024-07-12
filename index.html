@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="App.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi, it's me Uday kumar</h2>
+                <p class="hero_desc"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="proj.jpeg" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <p>Uday kumar holds a Bachelor of Technology from Annamacharaya University and focuses his career on digital marketing
+                consulting.
+                
+                The above-the-fold section of his homepage has a big heading, his short bio, and animated text. Below that, Uday
+                describes his services, which include marketing planning and development, applying subtle float-in effects as users
+                scroll.
+                
+                Further down, it features a blog post, an About section with his contact details and photo, and testimonials. Although
+                uday’s web developer portfolio is a good design, it could be improved by showcasing work from
+                previous employers to convince potential clients to work with him.
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Web developing</li>
+                            <li>Editing</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Creative-writing</li>
+
+
+
+                            <li>Gaming</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> Once you click one of the project links, you’ll see a video and a short project description. As you scroll down, it will
+                    display the project background, his research and design process, and the outcome. Greg also attaches photos and
+                    screenshots to illustrate his workflow and highlight his expertise.
+                    
+
+
+
+
+
+
+
+
+                    Besides outlining his educational and career background on the About page, Greg provides a downloadable resume for
+                    future reference and explains his role in more detail.
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-4">Website Development</h4>
+                        <p class="card-text mt-4">Website development is the process of creating a website or web application, including its design, layout, coding,
+                        content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-4">Website Design</h4>
+                        <p class="card-text mt-4">Website design refers to the process of creating visually appealing and user-friendly websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-4">Website Deployment</h4>
+                        <p class="card-text mt-4">Website deployment refers to the process of making a website live and accessible to the public. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-4">SEO</h4>
+                        <p class="card-text mt-4">SEO stands for "Search Engine Optimization", a digital marketing strategy aimed at improving the visibility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-4">DevOps</h4>
+                        <p class="card-text mt-4">DevOps is a set of practices, tools, and cultural philosophies that integrate and automate the work of software
+                        development and IT operations. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-4">QA</h4>
+                        <p class="card-text mt-4">Quality assurance is the overall process. There are documented steps and procedures to define what quality is, how to
+                        determine the product meets
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-6">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpW9bTFpOI9dZmZlROGKTjNEsMVYz1UDXmVQ&s.jpeg"
+                            alt="Card image" style="width: 100%;">
+                        <div class="card-body">
+                            <h3 class="card-title">YouTube Clone</h3>
+                            <p class="small-desc"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                            <div class="go-corner">
+                                <div class="go-arrow">→</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://img.freepik.com/free-vector/quiz-neon-sign_1262-19629.jpg?ga=GA1.1.396730066.1720688557&semt=ais_hybrid.jpeg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://img.freepik.com/free-vector/flat-furniture-sale-landing-page-template_23-2148930031.jpg?ga=GA1.1.396730066.1720688557&semt=ais_hybrid.jpg?ga=GA1.1.396730066.1720688557&semt=ais_hybrid.jpeg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Landing Page</h4>
+                            <p class="card-text"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://img.freepik.com/free-photo/chat-message-front-side-white-background_187299-40133.jpg?ga=GA1.1.396730066.1720688557&semt=ais_hybrid.jpeg"
+                            alt="Card image" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">Messaging Service</h4>
+                            <p class="card-text"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://img.freepik.com/premium-vector/twitter-global-social-media-networking-service_944081-110.jpg?ga=GA1.1.396730066.1720688557&semt=ais_hybrid.jpeg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                            <p class="card-text"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://img.freepik.com/premium-vector/blog-word-text-cut-from-paper-flat-design_100655-3169.jpg?size=626&ext=jpg&ga=GA1.1.396730066.1720688557&semt=ais_hybrid.jpeg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text"></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-3">
+            <div class="col-lg-3">
+
+            </div>
+
+            <div class="col-lg-3">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text"
+                            placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- footer section-->
+<footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- load javascript after loading all html content -->
+<script src="App.js"></script>
+
+</body>
+
+</html>
